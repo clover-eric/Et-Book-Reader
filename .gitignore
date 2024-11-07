@@ -1,0 +1,45 @@
+# 开发环境
+.env
+.env.*
+node_modules/
+dist/
+coverage/
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+.deploy.lock
+.cache/
+
+# 数据库文件
+*.sql
+!backend/database/init.sql
+!backend/database/seed.sql
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+
+# 测试文件
+__tests__/
+test/
+tests/
+*.test.js
+*.spec.js
+
+# 文档源文件
+*.md
+!README.md
+!docs/*.md
+
+# 开发工具配置
+.idea/
+.vscode/
+*.sublime-*
+*.swp
